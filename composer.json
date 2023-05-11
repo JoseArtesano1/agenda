@@ -1,0 +1,21 @@
+{
+    "name": "joseantonio/proyecto",
+    "authors": [
+        {
+            "name": "JoseArtesano1",
+            "email": "jakastrillor@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./Classes"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.7",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
